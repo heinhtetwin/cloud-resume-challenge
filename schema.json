@@ -1,0 +1,106 @@
+{
+    "basics": {
+      "name": "Hein Htet Win",
+      "label": "DevOps Engineer",
+      "image": "https://drive.google.com/file/d/1Szj8gU9d4PpK8-F_YjUuus3knoKjCM-J/view?usp=drive_link",
+      "email": "heinux.training@gmail.com",
+      "phone": "+66 99 186 1066",
+      "url": "https://portfolio.heinux-training.net/",
+      "summary": "Experienced DevOps engineer with about 4 years of experience in the FinTech, ISP, Banking and Education industries. Demonstrated expertise in launching and managing large-scale users system architecture and infrastructure. Also conducted with top cloud service providers including AWS, Azure, and GCP to help clients with their digital transformation.",
+      "location": {
+        "address": "99, Ratchadaphisek Road",
+        "postalCode": "10600",
+        "city": "Bangkok",
+        "countryCode": "Thailand",
+        "region": "Asia Pacific"
+      },
+      "profiles": [{
+        "network": "Twitter",
+        "username": "HeinuxDevOps",
+        "url": "https://twitter.com/HeinuxDevOps"
+      }]
+    },
+    "work": [
+    {
+      "name": "AYA Bank",
+      "position": "DevOps Engineer",
+      "url": "https://www.ayabank.com",
+      "startDate": "2023-03-01",
+      "endDate": "In Progress",
+      "summary": "Served as a DevOps Engineer"
+    },
+    {
+        "name": "Frontiir Co.Ltd",
+        "position": "System Engineer",
+        "url": "https://www.frontiir.com",
+        "startDate": "2021-01-01",
+        "endDate": "2023-28-02",
+        "summary": "Served as a System Engineer"
+    },
+    {
+        "name": "KBZ Bank",
+        "position": "Network Engineer",
+        "url": "https://www.kbzbank.com",
+        "startDate": "2020-09-01",
+        "endDate": "2020-31-12",
+        "summary": "Served as a Network Engineer"
+    }
+    ],
+    "volunteer": [{
+      "organization": "AWS UserGroup Myanmar",
+      "position": "Volunteer",
+      "url": "https://awsugmm.org",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Volunteering and Organizing Community Events for Myanmar AWS Community"
+    }],
+    "education": [{
+      "institution": "University of Information Technology(UIT), Yangon, Myanmar",
+      "url": "https://www.uit.edu.mm/",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2014-12-01",
+      "endDate": "2022-05-01",
+      "score": "2.9"
+    }],
+    "awards": [{
+      "title": "AWS Community Builder",
+      "date": "2023-08-01",
+      "awarder": "Amazon Web Services(AWS)",
+      "summary": "Community Award by AWS for contributing Cloud knowledge into the community"
+    }],
+    "certificates": [
+    {
+      "name": "AWS Certified Developer – Associate",
+      "date": "2024-24-02",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/c47e08bd-6e1b-40eb-933f-9fbaccccc59f/public_url"
+    },
+    {
+        "name": "AWS Certified SysOps Administrator – Associate",
+        "date": "2023-06-17",
+        "issuer": "AWS",
+        "url": "https://www.credly.com/badges/f8a9500b-618a-4b2f-979a-800ea0055a1b/public_url"
+    }
+    ],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Professional"
+    }],
+    "interests": [{
+      "name": "Gaming",
+      "keywords": [
+        "Gaming",
+        "Dota2"
+      ]
+    }]
+  }
