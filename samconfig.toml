@@ -29,13 +29,3 @@ warm_containers = "EAGER"
 
 [default.local_start_lambda.parameters]
 warm_containers = "EAGER"
-
-[testing.deploy.parameters]
-stack_name = "cloud-resume-api"
-resolve_s3 = true
-s3_prefix = "cloud-resume-api"
-region = "ap-southeast-1"
-confirm_changeset = true
-capabilities = "CAPABILITY_IAM"
-disable_rollback = true
-image_repositories = []
