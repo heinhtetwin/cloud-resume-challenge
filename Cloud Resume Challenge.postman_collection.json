@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "899fdd4a-7d46-4d54-b6cf-7d2a4800f4c2",
+		"name": "Cloud Resume Challenge",
+		"description": "API Collection for Cloud Resume Challenge hosted in AWS.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21503176"
+	},
+	"item": [
+		{
+			"name": "Get All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}",
+					"host": [
+						"{{base_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Resume",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"1\",\n    \"name\": \"Hein Htet Win\",\n    \"resume\": {\n        \"basics\": {\n            \"name\": \"Hein Htet Win\",\n            \"label\": \"DevOps Engineer\",\n            \"image\": \"https://drive.google.com/file/d/1Szj8gU9d4PpK8-F_YjUuus3knoKjCM-J/view?usp=drive_link\",\n            \"email\": \"heinux.training@gmail.com\",\n            \"phone\": \"+66 99 186 1066\",\n            \"url\": \"https://portfolio.heinux-training.net/\",\n            \"summary\": \"Experienced DevOps engineer with about 4 years of experience in the FinTech, ISP, Banking and Education industries. Demonstrated expertise in launching and managing large-scale users system architecture and infrastructure. Also conducted with top cloud service providers including AWS, Azure, and GCP to help clients with their digital transformation.\",\n            \"location\": {\n                \"address\": \"99, Ratchadaphisek Road\",\n                \"postalCode\": \"10600\",\n                \"city\": \"Bangkok\",\n                \"countryCode\": \"Thailand\",\n                \"region\": \"Asia Pacific\"\n            },\n            \"profiles\": [\n                {\n                    \"network\": \"Twitter\",\n                    \"username\": \"HeinuxDevOps\",\n                    \"url\": \"https://twitter.com/HeinuxDevOps\"\n                }\n            ]\n        },\n        \"work\": [\n            {\n                \"name\": \"AYA Bank\",\n                \"position\": \"DevOps Engineer\",\n                \"url\": \"https://www.ayabank.com\",\n                \"startDate\": \"2023-03-01\",\n                \"endDate\": \"In Progress\",\n                \"summary\": \"Served as a DevOps Engineer\"\n            },\n            {\n                \"name\": \"Frontiir Co.Ltd\",\n                \"position\": \"System Engineer\",\n                \"url\": \"https://www.frontiir.com\",\n                \"startDate\": \"2021-01-01\",\n                \"endDate\": \"2023-28-02\",\n                \"summary\": \"Served as a System Engineer\"\n            },\n            {\n                \"name\": \"KBZ Bank\",\n                \"position\": \"Network Engineer\",\n                \"url\": \"https://www.kbzbank.com\",\n                \"startDate\": \"2020-09-01\",\n                \"endDate\": \"2020-31-12\",\n                \"summary\": \"Served as a Network Engineer\"\n            }\n        ],\n        \"volunteer\": [\n            {\n                \"organization\": \"AWS UserGroup Myanmar\",\n                \"position\": \"Volunteer\",\n                \"url\": \"https://awsugmm.org\",\n                \"startDate\": \"2012-01-01\",\n                \"endDate\": \"2013-01-01\",\n                \"summary\": \"Volunteering and Organizing Community Events for Myanmar AWS Community\"\n            }\n        ],\n        \"education\": [\n            {\n                \"institution\": \"University of Information Technology(UIT), Yangon, Myanmar\",\n                \"url\": \"https://www.uit.edu.mm/\",\n                \"area\": \"Software Development\",\n                \"studyType\": \"Bachelor\",\n                \"startDate\": \"2014-12-01\",\n                \"endDate\": \"2022-05-01\",\n                \"score\": \"2.9\"\n            }\n        ],\n        \"awards\": [\n            {\n                \"title\": \"AWS Community Builder\",\n                \"date\": \"2023-08-01\",\n                \"awarder\": \"Amazon Web Services(AWS)\",\n                \"summary\": \"Community Award by AWS for contributing Cloud knowledge into the community\"\n            }\n        ],\n        \"certificates\": [\n            {\n                \"name\": \"AWS Certified Developer – Associate\",\n                \"date\": \"2024-24-02\",\n                \"issuer\": \"AWS\",\n                \"url\": \"https://www.credly.com/badges/c47e08bd-6e1b-40eb-933f-9fbaccccc59f/public_url\"\n            },\n            {\n                \"name\": \"AWS Certified SysOps Administrator – Associate\",\n                \"date\": \"2023-06-17\",\n                \"issuer\": \"AWS\",\n                \"url\": \"https://www.credly.com/badges/f8a9500b-618a-4b2f-979a-800ea0055a1b/public_url\"\n            }\n        ],\n        \"skills\": [\n            {\n                \"name\": \"Web Development\",\n                \"level\": \"Master\",\n                \"keywords\": [\n                    \"HTML\",\n                    \"CSS\",\n                    \"JavaScript\"\n                ]\n            }\n        ],\n        \"languages\": [\n            {\n                \"language\": \"English\",\n                \"fluency\": \"Professional\"\n            }\n        ],\n        \"interests\": [\n            {\n                \"name\": \"Gaming\",\n                \"keywords\": [\n                    \"Gaming\",\n                    \"Dota2\"\n                ]\n            }\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}",
+					"host": [
+						"{{base_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/{{id}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
